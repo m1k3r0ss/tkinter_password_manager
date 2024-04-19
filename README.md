@@ -6,6 +6,7 @@ This is a simple password manager application built using Python's Tkinter libra
 
 - **Python 3.x**: Ensure you have Python 3.x installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 - **Tkinter**: Tkinter is included with most Python installations, so you shouldn't need to install it separately.
+- **Pyperclip**: This library is used for copying generated passwords to the clipboard. You can install it using `pip install pyperclip`.
 
 ## Usage
 
@@ -13,7 +14,10 @@ This is a simple password manager application built using Python's Tkinter libra
 2. Open a terminal or command prompt.
 3. Navigate to the directory where you saved the application files.
 4. Run the following command to launch the application:
-  python password_manager.py
+
+    ```
+    python password_manager.py
+    ```
 
 ## Instructions for Windows
 
@@ -25,8 +29,10 @@ To run this application on Linux, you might need to make a couple of adjustments
 
 - **File Paths**: Update file paths if necessary. Ensure that any file paths specified in the code (`3D Lock Icon.png`, `data.txt`) are correct for your Linux file system.
 - **Executable Permission**: If you encounter permission issues when running the application, ensure that the Python script has executable permission. You can grant executable permission using the following command:
-  chmod +x password_manager.py
 
+    ```
+    chmod +x password_manager.py
+    ```
 
 ## Instructions for macOS
 
@@ -38,7 +44,7 @@ This password manager application allows users to store and manage their website
 
 ### 1. Generate Password
 
-Users can generate strong and random passwords for their accounts by clicking the "Generate Password" button. The generated password includes a combination of letters (both uppercase and lowercase), numbers, and symbols.
+Users can generate strong and random passwords for their accounts by clicking the "Generate Password" button. The generated password includes a combination of letters (both uppercase and lowercase), numbers, and symbols. The generated password is also copied to the clipboard for easy access.
 
 ### 2. Save Password
 
@@ -55,6 +61,3 @@ The application is designed to run on multiple platforms including Windows, Linu
 ### 5. User Interface
 
 The user interface is built using Tkinter, providing a simple and intuitive interface for users to interact with the application. Users can easily navigate through the fields to enter their website credentials and generate passwords.
-
-
-
